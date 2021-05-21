@@ -1,0 +1,10 @@
+
+
+    @font-face 
+    { 
+        font-family: 'Banny';
+        src: url('fonts/Banny-Round.otf')  format('OpenType');
+
+        font-family: 'Banny-Bold';
+        src: url('fonts/Banny-BoldRound.otf')  format('OpenType');
+    }
