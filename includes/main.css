@@ -34,7 +34,7 @@
 
   .fs-III
   {
-    background: url('img/header-bg.png') 100% / 100% no-repeat;
+    background: url('img/gril.jpg') 100% / 100% no-repeat;
     background-size: cover;
   }
 
@@ -96,7 +96,7 @@
   .header-logo
   {
     position: absolute;
-    top: 4.5em;
+    top: 5em;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -108,7 +108,7 @@
     width: 1px;
     background: rgb(255, 255, 255, 0.2);
     left: 295px;
-    top: 82px;
+    top: 79px;
     align-self: flex-start;
   }
 
@@ -119,7 +119,7 @@
     width: 1px;
     background: rgb(255, 255, 255, 0.2);
     right: 295px;
-    top: 83px;
+    top: 81px;
     align-self: flex-start;
   }
 
@@ -266,7 +266,7 @@
   {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -279,20 +279,25 @@
 
   .f-img
   {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     width: 475px;
     height: 475px;
+    z-index: 2;
   }
 
   .text-container
   {
     text-align: center;
     width: 50%;
+    z-index: 2;
   }
 
   .tc-title
   {
     font-size: 36px;
     font-family: 'Banny-Bold';
+    z-index: 2;
   }
 
   .tc-block
@@ -304,6 +309,7 @@
     margin: 0 auto;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    z-index: 2;
   }
 
   .tc-subtitle
@@ -311,19 +317,20 @@
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 1rem;
+    z-index: 2;
   }
 
   .tc-text
   {
     font-size: 16px;
     font-weight: 400;
+    z-index: 2;
   }
 
   .top-title
   {
     position: relative;
-    top: 2rem;
-    bottom: 2rem;
+    top: 3rem;
     color: #fff;
     font-size: 12px;
     font-weight: 700;
@@ -331,3 +338,140 @@
     text-align: center;
   }
 
+  .tc-input
+  {
+    border: 2px solid #E5E5E5;
+    border-radius: 5px;
+    padding-left: 20px;
+    outline: none;
+    width: 280px;
+    height: 60px;
+    background: #E5E5E5;
+    margin-bottom: 0.5rem;
+  }
+
+  .tc-input:focus
+  {
+    background: #fff;
+    transition: 0.3s;
+  }
+
+  .tc-input:not(focus)
+  {
+    transition: 0.3s;
+  }
+
+  .tc-btn
+  {
+    width: 91%;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background: #E8C300;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .timg-dtext
+  {
+    position: absolute;
+    bottom: 1rem;
+    color: #33333380;
+  }
+
+  .timg-lline
+  {
+    position: absolute;
+    top: -15px;
+    left: 300px;
+    height: 100%;
+    width: 1px;
+    background: rgb(255, 255, 255, 0.2);
+    z-index: 1;
+  }
+
+  .timg-rline
+  {
+    position: absolute;
+    top: -15px;
+    right: 300px;
+    height: 100%;
+    width: 1px;
+    background: rgb(255, 255, 255, 0.2);
+    z-index: 1;
+  }
+
+  .timg-cline
+  {
+    position: absolute;
+    top: -15px;
+    left: 49.95%;
+    height: 100%;
+    width: 1px;
+    background: rgb(255, 255, 255, 0.2);
+    z-index: 1;
+  }
+
+  .slider
+  {
+    display: flex;
+  }
+
+  .slider-circle
+  {
+    background: rgb(255, 255, 255, 0.4);
+    border-radius: 100%;
+    width: 13px;
+    height: 13px;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .active
+  {
+    background: rgb(255, 255, 255, 1);
+  }
+
+  .tc-food-list
+  {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .tc-food-list div
+  {
+    padding: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    border-right: 1px solid hsla(0, 0%, 20%, 0.2);
+    border-left: 1px solid hsla(0, 0%, 20%, 0.2);
+  }
+
+  .tc-food-list div.tcf-first
+  {
+    border-left: none;
+  }
+
+  .tc-food-list div.tcf-last
+  {
+    border-right: none;
+  }
+
+  .dishes-container
+  {
+    display: flex;
+    width: 100%;
+    background: grey;
+    justify-content: space-around;
+  }
+
+  .dishesi-title
+  {
+    font-size: 18px;
+    font-weight: 600;
+  }
