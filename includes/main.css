@@ -46,7 +46,7 @@
 
   .fscreen
   {
-    height: 100vh;
+    height: 750px;
   }
 
   .header
@@ -350,7 +350,7 @@
     border-radius: 5px;
     padding-left: 20px;
     outline: none;
-    width: 280px;
+    width: 260px;
     height: 60px;
     background: #E5E5E5;
     margin-bottom: 0.5rem;
@@ -369,7 +369,7 @@
 
   .tc-btn
   {
-    width: 575px;
+    width: 535px;
     margin: 0 auto;
     padding: 20px;
     font-size: 14px;
@@ -560,13 +560,13 @@
   {
     width: 100%;
     display: flex;
-    background: grey;
+    justify-content: space-around;
   }
 
   .gallery img
   {
-    width: 340px;
-    height: 340px;
+    width: 310px;
+    height: 310px;
   }
 
   .input-container
@@ -607,7 +607,7 @@
     padding-left: 20px;
     outline: none;
     height: 30px;
-    width: 355px;
+    width: 30.3%;
     background: #E5E5E5;
     margin-bottom: 0.5rem;
     font-weight: 700;
@@ -683,3 +683,17 @@
     margin-right: 0.3rem;
     margin-left: 0.3rem;
   }
+
+  @media screen and (max-width: 800px)
+  {
+    .g-line
+    {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 800px)
+  {
+
+  }
+  
